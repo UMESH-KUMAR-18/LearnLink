@@ -1,0 +1,328 @@
+@charset "UTF-8";
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+	margin-top: 9%;
+}
+
+html {
+	font-family: Inter;
+	font-size: 16px;
+}
+
+body {
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: normal;
+	line-height: 1.15;
+	color: var(--dl-color-gray-black);
+	background-color: var(--dl-color-gray-white);
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-form {
+  width: 736px;
+  height: 328px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container1 {
+  width: 685px;
+  height: 78px;
+  display: flex;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.home-text01 {
+  align-self: center;
+}
+.home-textinput {
+  width: 168px;
+  height: 46px;
+}
+.home-text02 {
+  align-self: center;
+}
+.home-container2 {
+  width: 685px;
+  height: 49px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.home-text03 {
+  align-self: center;
+}
+.home-textinput02 {
+  width: 182px;
+}
+.home-text04 {
+  align-self: center;
+}
+.home-textinput03 {
+  width: 180px;
+}
+.home-container3 {
+  width: 685px;
+  height: 51px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.home-text05 {
+  align-self: center;
+}
+.home-textinput04 {
+  width: 167px;
+}
+.home-text06 {
+  align-self: center;
+}
+.home-textinput05 {
+  width: 207px;
+}
+.home-container4 {
+  width: 685px;
+  height: 51px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.home-text07 {
+  align-self: center;
+  margin-right: var(--dl-space-space-threeunits);
+}
+.home-textinput06 {
+  width: 167px;
+}
+.home-container5 {
+  width: 685px;
+  height: 51px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.home-text08 {
+  align-self: center;
+}
+.home-textinput07 {
+  width: 167px;
+}
+.home-text09 {
+  align-self: center;
+}
+.home-textinput08 {
+  width: 207px;
+}
+.home-button {
+  width: 77px;
+  height: 28px;
+  align-self: center;
+}
+.home-form1 {
+  width: 950px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container6 {
+  flex: 0 0 auto;
+  width: 913px;
+  height: 53px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.home-text11 {
+  align-self: center;
+  margin-right: var(--dl-space-space-unit);
+}
+.home-select {
+  align-self: center;
+}
+.home-text12 {
+  align-self: center;
+}
+.home-textinput09 {
+  width: 199px;
+  align-self: center;
+}
+.home-text13 {
+  align-self: center;
+}
+.home-textinput10 {
+  width: 77px;
+  align-self: center;
+}
+.home-text14 {
+  align-self: center;
+}
+.home-textinput11 {
+  width: 142px;
+  align-self: center;
+}
+.home-button1 {
+  width: 77px;
+    height: 28px;
+}
+.home-form2 {
+  width: 950px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container7 {
+  flex: 0 0 auto;
+  width: 913px;
+  height: 53px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.home-text16 {
+  align-self: center;
+  margin-right: var(--dl-space-space-unit);
+}
+.home-select1 {
+  align-self: center;
+}
+.home-text17 {
+  align-self: center;
+}
+.home-textinput12 {
+  width: 77px;
+  align-self: center;
+}
+.home-text18 {
+  align-self: center;
+}
+.home-textinput13 {
+  width: 142px;
+  align-self: center;
+}
+.home-text19 {
+  align-self: center;
+}
+.home-textinput14 {
+  width: 72px;
+  align-self: center;
+}
+.home-button2 {
+  width: 77px;
+    height: 28px;
+}
+
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}

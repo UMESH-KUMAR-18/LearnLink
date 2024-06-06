@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.overlay {
+ position: fixed;
+    top: 12%;
+    left: 2%;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+nav.open ~ .overlay {
+  opacity: 1;
+  left: 260px;
+  pointer-events: auto;
+}

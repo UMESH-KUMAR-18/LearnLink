@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.overlay {
+ position: fixed;
+    top: 19%;
+    left: 2%;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+nav.open ~ .overlay {
+  opacity: 1;
+  left: 260px;
+  pointer-events: auto;
+}
+
+.weatherCast {
+	background-color: #E0E0E0;
+    width: 80%;
+    padding: 6px 40px 6px 40px;
+    border-radius: 23px;
+    margin-bottom: 7%;
+}
+
+.email {
+	background-color: #E0E0E0;
+    width: 80%;
+    padding: 6px 40px 6px 40px;
+    border-radius: 23px;
+     margin-bottom: 7%;
+}
+
+table{
+border-collapse: collapse;
+box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+th {
+    background-color: #f2f2f2;
+}
+th, td {
+    padding: 8px 11px 11px 11px;
+    text-align: center;
+}
